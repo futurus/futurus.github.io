@@ -1,0 +1,99 @@
+/*!
+ * Start Bootstrap - Scrolling Nav HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: darkgray;
+    padding: 70px;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 10px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+.about-section {
+    height: 95%;
+    width: 70%;
+    padding-top: 70px;
+    text-align: center;
+    background: #eee;
+}
+
+.portfolio-section {
+    width: 70%;
+    padding-top: 35px;
+    text-align: center;
+    background: #ddd;
+}
+
+.contact-section {
+    height: 50%;
+    width: 70%;
+    padding-top: 35px;
+    text-align: center;
+    background: #eee;
+}
+
+#portfolio, #contact, #about {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 0 auto;
+}
+
+.p-about {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.25em;
+    text-align: left;
+}
+
+.p-description {
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    text-align: center;
+}
+
+#pi {
+    height: 525px;
+}
+
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.skills, .skill-item {
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+}
+
+#contact ul {
+    padding: 0px;
+}
+
+#contact li {
+    display:inline;
+}

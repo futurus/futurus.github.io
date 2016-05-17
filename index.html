@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Vu Nguyen | Developer</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Bootstrap Social CSS -->
+    <link href="css/bootstrap-social.css" rel="stylesheet">
+
+    <!-- Font Awesome CSS -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Hover (icon) CSS -->
+    <link href="css/hover.css" rel="stylesheet">
+
+    <!-- NavBar Scrolling CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+
+    <!-- Google Fonts CSS -->
+    <link href='https://fonts.googleapis.com/css?family=Lato:300|Source+Sans+Pro:700|Comfortaa:700' rel='stylesheet'
+          type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- jQuery -->
+    <script src="js/jquery-2.2.3.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand page-scroll" href="#page-top"
+               style="font-family: 'Comfortaa', cursive;">vnguyen.io</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                <li class="hidden">
+                    <a class="page-scroll" href="#page-top"></a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#about" style="font-family: 'Source Sans Pro', sans-serif;">About</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#portfolio" style="font-family: 'Source Sans Pro', sans-serif;">Portfolio</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#contact"
+                       style="font-family: 'Source Sans Pro', sans-serif;">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+<!-- Intro Section -->
+<!--
+<section id="intro" class="intro-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>Welcome Section</h1>
+                <p></p>
+            </div>
+        </div>
+    </div>
+</section>
+-->
+
+<!-- About Section -->
+<section id="about" class="about-section center-block">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img id="pi" class="img-thumbnail" src="img/Pi.png">
+            </div>
+            <div class="col-md-8">
+                <p class="p-about">My name is Vu Nguyen and I am a (quant) analyst. I have a background in Mathematics,
+                    however, I am
+                    currently pursuing a Master's degree in Computer Science at University of Illinois at
+                    Urbana-Champaign.
+                    <br><br>
+                    My main interests are in theoretical computer science, artificial intelligence and machine learning
+                    (yes,
+                    very unique). I am also very interested in the recent emergence of web-based applications
+                    (JavaScript and its
+                    frameworks) so I plan to complete FreeCodeCamp.com's curriculum during the summer (yay, no school...
+                    or not).
+                    This is my portfolio page, showcasing my various projects from very basic ones to more sophisticated
+                    games
+                    that I have developed before and especially during FCC's education.
+                    <br><br>
+                    Photo to the right is not myself, but my Siberian Husky named Pi.
+                    <br><br>
+
+                <ul class="skills">
+                    Languages, Databases, and Frameworks:
+                    <li class="skill-item">
+                        Somewhat comfortable with: Java, JavaScript, Mathematics, MongoDB, Python, R, Vietnamese
+                    </li>
+                    <li class="skill-item">
+                        Have had used before: C++, C#, French, Mathematica, MatLab, MySQL, OCaml, Perl,
+                        PostgresSQLSpark, VBA
+                    </li>
+                    <li class="skill-item">
+                        Currently learning: Java, JavaScript, Meteor.js, MongoDB, Express.js, Angular.js, Node.js
+                    </li>
+                </ul>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- portfolio Section -->
+<section id="portfolio" class="portfolio-section center-block">
+    <div class="container">
+        <h1 class="text-center">Portfolio</h1>
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="img/memory.png" alt="Simple game of Memory">
+                    <div class="caption">
+                        <h4>Memory - 6/2014</h4>
+                        <p class="p-description">Simple game to improve your memory, was done with HTML and some
+                            JavaScript. This was one of
+                            the exercise in my NYU Advanced JavaScript class.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="img/tetris.png" alt="Classic game Tetris">
+                    <div class="caption">
+                        <h4>Tetris - 7/2014</h4>
+                        <p class="p-description">The famous game of Tetris, was done with HTML5 canvas, JavaScript,
+                            jQuery. I was interested
+                            in learning the new JavaScript so I did this. The last time I used JavaScript (2001-2006),
+                            it
+                            involves making marquee IE status bar, to snowing webpages to form validations. So this was
+                            an
+                            eye-opening reintroduction.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="img/wargame.png" alt="AI Wargame">
+                    <div class="caption">
+                        <h4>AI Wargame - 4/2015</h4>
+                        <p class="p-description">One of CS440's many AI projects, I use HTML and JavaScript to give it a
+                            front-end, improving
+                            user-friendliness (this is rare as I usually program for console). AI includes Minimax,
+                            Alpha-beta
+                            Pruning. The goal is to earn as many points as possible.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="img/tribute-page.png" alt="Tribute page">
+                    <div class="caption">
+                        <h4>FreeCodeCamp Challenge #1 - 5/2016</h4>
+                        <p class="p-description">Tribute page with simple HTML and Bootstrap, working with its
+                            components such as jumbotron,
+                            images, lists, and links.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="img/blank.png" alt="Portfolio page">
+                    <div class="caption">
+                        <h4>FreeCodeCamp Challenge #2 - 5/2016</h4>
+                        <p class="p-description">Personal portfolio page (i.e., this one), with HTML, Bootstrap,
+                            JavaScript. This is my
+                            personal page version 3.0, my first two versions dated back to 2002-2003. You can view them
+                            on Internet Archive: Wayback Machine 'vfuturus.com'</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="img/memory.png" alt="Random quote machine">
+                    <div class="caption">
+                        <h4>FreeCodeCamp Challenge #3 - 5/2016</h4>
+                        <p class="p-description">Random quote machine uses HTML, Bootstrap, JavaScript. It makes Ajax
+                            calls to AndruxNet
+                            server to retrieve random quotes, and allow sharing quotes via Twitter.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact-section center-block">
+    <div class="container">
+        <h1>Contact</h1>
+        <p class="p-about" style="text-align: center">Email me @ vu[at]vnguyen.io</p>
+        <ul>
+            <li>
+                <a target="_blank" href="https://www.github.com/futurus">
+                    <span class="fa fa-fw fa-github" style="font-size: 2em;"></span>
+                    </button>
+                </a>
+            </li>
+            <li>
+                <a target="_blank" href="https://www.facebook.com/futurus">
+                    <!-- <button class="btn btn-social-icon btn-facebook"> -->
+                    <span class="fa fa-fw fa-facebook" style="font-size: 2em;"></span>
+                    </button>
+                </a>
+            </li>
+            <li>
+                <a target="_blank" href="https://www.linkedin.com/in/futurus">
+                    <!-- <button class="btn btn-social-icon btn-linkedin"> -->
+                    <span class="fa fa-fw fa-linkedin" style="font-size: 2em;"></span>
+                    </button>
+                </a>
+            </li>
+            <li>
+                <a target="_blank" href="https://www.twitter.com/futurus">
+                    <!-- <button class="btn btn-social-icon btn-twitter"> -->
+                    <span class="fa fa-fw fa-twitter" style="font-size: 2em;"></span>
+                    </button>
+                </a>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<footer>
+    <div class="container-fluid">
+
+    </div>
+</footer>
+</body>
+
+</html>

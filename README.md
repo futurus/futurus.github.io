@@ -1,2 +1,2 @@
-# futurus.github.io
-personal portfolio page
+# personal-page
+my personal portfolio page
